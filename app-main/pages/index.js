@@ -15,5 +15,8 @@ export default () => (
     <Link href='/about'>
       <a>About</a>
     </Link>
+    <Link href='/other'>
+      <a>Other</a>
+    </Link>
   </div>
 )
