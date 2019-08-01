@@ -4,6 +4,7 @@
     "jsx": "react",
     "lib": ["es2017", "dom"],
     "target": "es5",
+    "declaration": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
