@@ -4,7 +4,8 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "compile": "tsc",
+    "build": "rollup -c"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,8 @@
   "devDependencies": {
     "@types/react": "^16.8.24",
     "@types/react-dom": "^16.8.5",
+    "rollup": "^1.18.0",
+    "rollup-plugin-typescript2": "^0.22.1",
     "typescript": "^3.5.3"
   }
 }
