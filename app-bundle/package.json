@@ -11,13 +11,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/react-dom": "^16.8.5",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
     "@types/react": "^16.8.24",
-    "@types/react-dom": "^16.8.5",
     "rollup": "^1.18.0",
+    "rollup-plugin-commonjs": "^10.0.2",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-replace": "^2.2.0",
     "rollup-plugin-typescript2": "^0.22.1",
     "typescript": "^3.5.3"
   }

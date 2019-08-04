@@ -1,9 +1,3 @@
-import * as React from "react";
-import { SubComponent } from './sub-component';
+import { BundleComponent } from './bundle-component';
 
-export default () => (
-  <div>
-    <h2>Bunble Component</h2>
-    <SubComponent />
-  </div>
-);
+export default BundleComponent;
