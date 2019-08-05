@@ -12,11 +12,20 @@ export default () => (
     <Title>
       My page
     </Title>
-    <Link href='/about'>
-      <a>About</a>
-    </Link>
-    <Link href='/other'>
-      <a>Other</a>
-    </Link>
+    <div>
+      <Link href='/about'>
+        <a>About</a>
+      </Link>
+    </div>
+    <div>
+      <Link href='/other'>
+        <a>Other</a>
+      </Link>
+    </div>
+    <div>
+      <Link href='/dynamic'>
+        <a>Dynamic</a>
+      </Link>
+    </div>
   </div>
 )
